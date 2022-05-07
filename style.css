@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Libre+Bodoni:ital@1&family=Macondo&display=swap');
+
+/*#CFD4C5, #EECFD4, #EFB9CB,#E6ADEC, #2E0D45, #c287e8*/
+
+body{
+	font-family: 'Dongle', sans-serif;
+	margin: 0;
+}
+
+main{
+	max-width: 1200px;
+	margin: 0px auto;
+	padding:  10px;
+	background-color: #fff9f4;
+
+}
+header img{
+	margin: 0; auto;
+	display: block;
+}
+header{
+	background-color: #CFD4C5;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin:  10px;
+	padding:  8px;
+
+}
+nav li{
+	display: inline;
+	padding: 10px;
+
+}
+nav{
+	background: rgb(238,207,212);
+	background: radial-gradient(circle, rgba(238,207,212,1) 25%, rgba(239,185,203,1) 60%, rgba(194,135,232,1) 100%);
+	border-top: 1px solid #C287E8;
+	border-bottom: 1px solid #C287E8;
+	font-family: 'Libre Bodoni', serif;
+
+}
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: #2E0D45;
+}
+nav a:hover{
+	color:black;
+}
+nav a:active{
+	color: grey;
+}
+
+h1{
+	font-family: 'Neonderthaw', cursive;
+	text-align: center;
+	font-size: 40px;
+}
+h2{
+	color: #2E0D45;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+.col-sm-12 h2{
+	text-align: center;
+}
+p{
+	font-size: 20px;
+}
+ul{
+	font-size: 20px;
+}
+
+
+.logo{
+	margin: 0 auto;
+	display: block;
+	padding: 10px;
+	padding-left: 10px;
+}
+.home-hero{
+	min-height: 300px;
+	background-image:url(images/floral.webp);
+	background-size: cover;
+	padding-top: 20px;
+	color: white;
+	text-shadow: 1px 1px 0 black;
+}
+.home-hero img{
+	  margin: 0 auto;
+	  display: block;
+	  border-radius: 50%;
+	  border: #E6ADEC solid 2px;
+	  padding: 10px;
+	  background-color: #CFD4C5;
+}
+
+
+/* Gallery */
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/*Resume*/
+
+.resume{
+	margin: 30px auto;
+	border: 1px solid #dddddd;
+	box-shadow: 2px 2px 2px #333333;
+	padding:30px 5%;
+	max-width: 800px;
+}
+.resume-content{
+	border-left: 6px solid #eee;
+	padding-left: 20px;
+}
+.resume h1{
+	text-align: left;
+}
+.resume h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.resume p, .resume li{
+	font-size: 14px;
+}
+
+
+
+.fa{
+	color: #2E0D45 ;
+	font-size: 7em;
+	text-align: center;
+	padding: 40px 0;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 0px;
+
+}
+
+
+
+/*Footer*/
+footer{
+	clear: both;
+	text-align: left;
+	border-top: 1px solid #C287E8;
+	padding: 10px;
+	color: whitesmoke;
+	background: rgb(239,185,203);
+	background: linear-gradient(0deg, rgba(239,185,203,1) 0%, rgba(207,212,197,1) 100%);
+
+}
+footer a:link{
+	color: #2E0D45;
+}
+footer a:visited{
+	color: whitesmoke;
+}
+footer p{
+ 	margin: 0;
+}
+
+.footer1000{
+	padding: 20px 0;
+    max-width:1000px;
+    margin:0 auto;
+}
+
+footer .fa{
+	font-size: 2em;
+	color: #2E0D45;
+	padding: 0;
+}
+
+footer h2{
+	margin: 0;
+}
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
