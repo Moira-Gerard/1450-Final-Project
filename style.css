@@ -5,13 +5,15 @@
 body{
 	font-family: 'Dongle', sans-serif;
 	margin: 0;
+	/*background-color: #fff9f4;*/
+
 }
 
 main{
 	max-width: 1200px;
 	margin: 0px auto;
 	padding:  10px;
-	background-color: #fff9f4;
+	/*background-color: #fff9f4;*/
 
 }
 header img{
@@ -66,10 +68,22 @@ h1{
 	font-size: 40px;
 }
 h2{
+	font-size: 40px;
 	color: #2E0D45;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	
+}
+h3{
+	font-size: 35px;
+	color: #2E0D45;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+h4{
+	text-align: center;
+}
+h5{
+	font-size: 30px;
 }
 .col-sm-12 h2{
 	text-align: center;
@@ -86,7 +100,7 @@ ul{
 	margin: 0 auto;
 	display: block;
 	padding: 10px;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 .home-hero{
 	min-height: 300px;
@@ -152,14 +166,14 @@ ul{
 	font-weight: bold;
 }
 .resume p, .resume li{
-	font-size: 14px;
+	font-size: 18px;
 }
 
 
 
 .fa{
 	color: #2E0D45 ;
-	font-size: 7em;
+	font-size: 5em;
 	text-align: center;
 	padding: 40px 0;
 	max-width: 1200px;
